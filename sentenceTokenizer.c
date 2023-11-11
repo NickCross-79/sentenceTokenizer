@@ -57,7 +57,6 @@ int main() {
     printf("Unique Words in the sentence:\n");
     for (int i = 0; i < totalUnique; i++) {
         printf("%s (Frequency: %d)\n", uniqueWords[i], freqArr[i]);
-        free(words[i]);
     }
     printf("Average word length: %0.2lf", avgLen/totalWords);
 
